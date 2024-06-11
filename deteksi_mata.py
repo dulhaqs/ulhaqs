@@ -12,7 +12,7 @@ icon_path = "👀"
 st.set_page_config(page_title="Deteksi Katarak dan Glaukoma.AI", page_icon=icon_path)
 
 # Memuat model yang telah dilatih
-model = load_model('C:\\Users\\ASUS\\model_deteksikatarakglaukoma.h5')
+model = load_model('compressed_model_deteksikatarakglaukoma.h5')
 
 def load_and_process_image(img_path, target_size=(644, 426)):
     """Memuat dan memproses gambar"""
