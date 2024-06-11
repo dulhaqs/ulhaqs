@@ -68,11 +68,11 @@ if halaman_terpilih == "Beranda":
 elif halaman_terpilih == "Tentang":
     large_title("APA ITU PENYAKIT MATA KATARAK ?")
     colored_divider(color="red")
-    st.image("C:\\Users\\ASUS\\gambar_katarak.jpg")
+    st.image("gambar_katarak.jpg")
     large_text("Katarak adalah gangguan penglihatan pada mata yang disebabkan adanya keruhan pada lensa mata. Pada bola mata, kekeruhan ini akan menutupi masuknya cahaya ke mata, sehingga mengakibatkan penurunan pada penglihatan. Pada awalnya orang yang memiliki katarak terjadi gumpalan kecil pada mata yang tidak mengganggu penglihatan, namun semakin lama dibiarkan maka gumpalan tersebut perlahan semakin besar dan akan terjadinya penuruan pada ketajaman mata.")
     large_title("APA ITU PENYAKIT MATA GLAUKOMA ?")
     colored_divider(color="green")
-    st.image("C:\\Users\\ASUS\\glaukoma_gambar.png")
+    st.image("glaukoma_gambar.png")
     large_text("glaukoma adalah penyakit mata yang dapat menyebabkan kebutaan, namun berbeda dengan katarak yang masih bisa disembuhkan melalui operasi. glaukoma merupakan penyakit mata yang berjalan secara progresif, hal ini menyebabkan gejala penyakit glaukoma tidak dirasakan oleh penderitanya dan penyakit ini bersifat permanen atau tidak dapat diperbaiki (irreversible) meskipun dengan jalan operasi")
 
 elif halaman_terpilih == "Halaman Deteksi":
