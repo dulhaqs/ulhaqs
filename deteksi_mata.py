@@ -89,9 +89,7 @@ if halaman_terpilih == "Beranda":
         pada aplikasi ini Anda dapat mendeteksi gangguan yang dialami pada mata berdasarkan gambar syaraf mata.
     """)
     st.write("""
-        Silahkan pilih halaman deteksi untuk melanjutkan pemeriksaan atau pilih halaman visualisasi model untuk melihat hasil kinerja model AI, seperti accuracy class, confusional matrix, accuracy epoch dan loss epoch.
-    """)
-
+        Silahkan pilih halaman deteksi untuk melanjutkan Deteksi Mata Katarak dan Glaukoma Berdasarkan hasil pemeriksaan syaraf mata
 elif halaman_terpilih == "Tentang":
     st.title("Tentang Penyakit Mata")
     st.divider()
