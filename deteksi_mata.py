@@ -90,6 +90,7 @@ if halaman_terpilih == "Beranda":
     """)
     st.write("""
         Silahkan pilih halaman deteksi untuk melanjutkan Deteksi Mata Katarak dan Glaukoma Berdasarkan hasil pemeriksaan syaraf mata
+    """)
 elif halaman_terpilih == "Tentang":
     st.title("Tentang Penyakit Mata")
     st.divider()
